@@ -22,3 +22,8 @@ PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/hero-common/propri
 
 # CBD
 PRODUCT_COPY_FILES += vendor/samsung/hero-common/sbin/cbd:root/sbin/cbd
+
+# SHealth
+PRODUCT_COPY_FILES += \
+	$(VENDOR_PATH)/apps/HealthService/lib/arm/libPlatformStrings.so:system/priv-app/HealthService/lib/arm/libPlatformStrings.so \
+	$(VENDOR_PATH)/apps/HealthService/lib/arm64/libPlatformStrings.so:system/priv-app/HealthService/lib/arm64/libPlatformStrings.so
