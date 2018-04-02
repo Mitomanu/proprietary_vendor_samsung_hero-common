@@ -19,10 +19,4 @@ define find-vendor-blobs
     		$(1)/$(vendor_file):$(vendor_file)))
 endef
 
-PRODUCT_PACKAGES += \
-   libGLES_mali
-
-PRODUCT_PACKAGES += \
-   HealthService
-
 $(call inherit-product, vendor/samsung/hero-common/hero-common-vendor-blobs.mk)
