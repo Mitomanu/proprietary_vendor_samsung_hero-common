@@ -68,8 +68,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib64/libuniapi.so:system/lib64/libuniapi.so \
   vendor/samsung/hero-common/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
   vendor/samsung/hero-common/proprietary/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
-  vendor/samsung/hero-common/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-  vendor/samsung/hero-common/proprietary/lib64/libhwjpeg.so:system/lib64/libhwjpeg.so \
   vendor/samsung/hero-common/proprietary/lib/libblurdetection.so:system/lib/libblurdetection.so \
   vendor/samsung/hero-common/proprietary/lib64/libblurdetection.so:system/lib64/libblurdetection.so \
   vendor/samsung/hero-common/proprietary/lib/libblurdetection_interface.so:system/lib/libblurdetection_interface.so \
@@ -211,9 +209,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib64/libmaxflicker.so:system/lib64/libmaxflicker.so \
   vendor/samsung/hero-common/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
   vendor/samsung/hero-common/proprietary/lib/libion.so:system/lib/libion.so \
-  vendor/samsung/hero-common/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
   vendor/samsung/hero-common/proprietary/lib64/libion.so:system/lib64/libion.so \
-  vendor/samsung/hero-common/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
   vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_apsta.bin_b1:system/etc/wifi/bcmdhd_apsta.bin_b1 \
   vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_apsta.bin_b90s_b1:system/etc/wifi/bcmdhd_apsta.bin_b90s_b1 \
   vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_apsta.bin_c0:system/etc/wifi/bcmdhd_apsta.bin_c0 \
