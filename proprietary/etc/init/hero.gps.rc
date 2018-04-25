@@ -34,13 +34,8 @@ service lhd /system/bin/lhd /system/etc/lhd.conf
     ioprio be 0
 
 # GPS
-service gpsd /system/bin/gpsd -c /system/etc/gps.xml
+service gpsd /vendor/bin/hw/gpsd -c /vendor/etc/gnss/gps.xml
     class main
     user gps
     group system inet net_raw wakelock
     ioprio be 0
-    disabled
-
-on property:init.svc.bootanim=stopped
-    # start gpsd late to prevent it from changing /data/system
-    start gpsd
